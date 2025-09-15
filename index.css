@@ -1,0 +1,16 @@
+body{
+    background-color: red;
+}
+.card{
+    background-color: green;
+    width: 200px;
+    length: 300px;
+    margin: 25px;
+}
+
+.container{
+    width: 90vw;
+    background-color: brown;
+    margin: 30px auto;
+    
+}
