@@ -1,16 +1,44 @@
 body {
-  background-color: red;
+  background-color: #775144;
 }
 .card {
-  background-color: green;
-  width: 200px;
-  length: 300px;
-  margin: 25px;
+  width: 18%;
+  min-width: 200px;
+  height: 40rem;
+  margin: 3rem 0;
+  background-color: #C09891;
+  border: 5px solid #9C756B;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h2 {
+  color: #F4DBD8;
+  font-family: squada one, sans-serif;
+  font-size: 50px;
+  border: 5px solid #9C756B;
+  border-radius: 10px;
+  background-color: #775144;
 }
 
 .container {
   width: 90vw;
-  background-color: brown;
-  margin: 30px auto;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px;
 }
 
